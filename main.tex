@@ -1,0 +1,112 @@
+%-------------------------------------------------------------------------------
+%   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%-------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Kevin Khuong} % name
+\address{kkhuong@ucsd.edu \\ (626) 478-6250 \\ Monterey Park, CA} % address
+\address{\texttt{https://github.com/kkhuong}} % phone number and email
+
+\begin{document}
+
+%-------------------------------------------------------------------------------
+%   EDUCATION SECTION
+%-------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf University of California, San Diego} \hfill {\em June 2019} 
+\\ \textit{Bachelor of Science} in \textit{Computer Science}. Minor in \textit{Mathematics}. \hfill { Overall GPA: 3.521/4.00}
+% \\ Undergraduate Researcher in Distributed Computing | Advisor: Ilkay Altintas
+\\ Relevant Coursework:
+\begin{itemize}
+    \setlength\itemsep{0.4em}
+    \item Data Structures, Discrete Mathematics, Mathematical Cryptography, Theory of Computation, Statistics, Software Engineering, Algorithm Design and Analysis
+\end{itemize}
+% {\bf East Los Angeles College} \hfill {\em June 2016} 
+% \\ Computer Science and Mathematics \hfill { Overall GPA: 3.78/4.00}
+% \\ Relevant Coursework:
+% \begin{itemize}
+%   \item Object Oriented Programming and Design, C++ Programming, Number Theory
+% \end{itemize}
+
+
+\end{rSection}
+%-------------------------------------------------------------------------------
+%   EXPERIENCE SECTION
+%-------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{Computer Science and Engineering Department - UC San Diego}{August 2017 - \textit{Present}}{Computer Science Head Tutor}{}
+\item Head tutor for CSE 21: Mathematics for Algorithms and Systems Analysis
+\item Contribute questions to, proctor, and grade course exams
+\item Hold weekly discussion sections and office hours
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{San Diego Supercomputer Center - UC San Diego}{September 2016 - August 2017}{Undergraduate Researcher | Advisor: Ilkay Altintas}{}
+\item Integrate the \texttt{Kepler Project} with \texttt{XSEDE computing resources} 
+\item Wrote user and testing documentation for the \texttt{Kepler-XSEDE} framework
+\item Using \texttt{Java} and \texttt{XML}, developed a generic parameterizable job launcher
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Project NEO (Nonprofit Organization)}{March 2012 - August 2016}{Web Developer | Curriculum Designer | Student Supervisor}{}
+\item Using \texttt{PHP} and \texttt{MySQL}, developed an online learning tool for the Common Core standards
+\item Managed and edited contents on the organization's main website
+% \item Installed software and configured servers
+\item Designed the Mathematics and Computational Thinking curriculum
+\item Led the volunteers and the tutoring sessions
+\end{rSubsection}
+
+\end{rSection}
+
+%-------------------------------------------------------------------------------
+%   PERSONAL PROJECTS SECTION
+%-------------------------------------------------------------------------------
+
+\begin{rSection}{Personal Project} \itemsep -2pt
+{\bf Pok\'{e}mon DS Customizer} %\hfill {\em 2008 - 2010} 
+\\ Using \texttt{PHP}, \texttt{C++}, and \texttt{MySQL}, I built a website---extending my e-commerce website---to allow customers to edit Pok\'{e}mon game save (binary) files when I was 11 years old. Through this Research and Development project, I manually mapped out how data were originally stored in a 512 KB \texttt{.sav} file and then use \texttt{C++} to automate edits and checksum updates. This project enabled customers to edit game saves themselves through the web instead of  sending in a request to customize their order.
+\end{rSection}
+
+%-------------------------------------------------------------------------------
+%   PUBLICATIONS
+%-------------------------------------------------------------------------------
+
+\begin{rSection}{Publication} \itemsep -2pt
+\vspace{-12pt}
+\item Shweta Purawat, Kevin Khuong, Parth Shah, Shava Smallen, and Ilkay Altintas. Kepler-XSEDE: A Scalable Workflow Framework. In \textit{Practice \& Experience in Advanced Research Computing}, 2017.
+\end{rSection}
+
+%-------------------------------------------------------------------------------
+%   ACHIEVEMENT SECTION
+%-------------------------------------------------------------------------------
+
+% \begin{rSection}{Achievement} \itemsep -2pt
+% \vspace{-12pt}
+% \item Ranked Top 2\% in NSA Cybersprint 2015 - \textbf{National Security Agency}
+% \item The NSA CyberSprint Challenge is my very first ethical hacking competition. Exploited web servers, manipulated database systems and cracked sensitive password hashes.
+% \end{rSection}
+
+%-------------------------------------------------------------------------------
+%   TECHNICAL STRENGTHS SECTION
+%-------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Languages and Frameworks &  C++, Ruby (on Rails), PHP, Python, HTML \\
+Software \& Tools & Git, Sublime Text, Vim, cPanel \& WHM, NGINX \\
+Other & Unix, Server Administration, \LaTeX, Tutoring and Mentoring\\
+\end{tabular}
+
+\end{rSection}
+\end{document}
